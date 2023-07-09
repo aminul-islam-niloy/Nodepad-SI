@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16FCD352-6AB7-481E-8EF7-8A35F219D143}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Nodepad_Application</RootNamespace>
+    <AssemblyName>Nodepad Application</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>notepad-icon_34386.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="notepad-icon_34386.ico" />
+    <None Include="Resources\zoomout_zoom_search_find_1530.png" />
+    <None Include="Resources\zoomin_zoom_search_find_1531.png" />
+    <None Include="Resources\Undo_icon-icons.com_73701.png" />
+    <None Include="Resources\underlined-button_icon-icons.com_53850.png" />
+    <None Include="Resources\select_all.ico.png" />
+    <None Include="Resources\save_icon-icons.com_53618.png" />
+    <None Include="Resources\save_icon_152542.png" />
+    <None Include="Resources\rightalignment_102616.png" />
+    <None Include="Resources\Redo_icon-icons.com_73698.png" />
+    <None Include="Resources\Print_icon-icons.com_55835.png" />
+    <None Include="Resources\power_icon-icons.com_53620.png" />
+    <None Include="Resources\power_closedown_close_exit_pode_1842.ico.png" />
+    <None Include="Resources\play.png" />
+    <None Include="Resources\paste_120009.png" />
+    <None Include="Resources\Open_icon-icons.com_73704.ico.png" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\normal.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\MicrophoneNormal_26939.png" />
+    <None Include="Resources\list_tasks_to_do_list_icon_233416.png" />
+    <None Include="Resources\list_number_icon_143560.png" />
+    <None Include="Resources\line space.png" />
+    <None Include="Resources\leftalignment_102744.png" />
+    <None Include="Resources\italic.png" />
+    <None Include="Resources\gui_about_icon_157266.ico.png" />
+    <None Include="Resources\Github_icon-icons.com_66788.ico.png" />
+    <None Include="Resources\fullcut_cut_scissors_4720.png" />
+    <None Include="Resources\font-color_40448.png" />
+    <None Include="Resources\font.png" />
+    <None Include="Resources\folders_documents_9789.ico.png" />
+    <None Include="Resources\folder_red_9772.ico.png" />
+    <None Include="Resources\exit_closethesession_close_6317.png" />
+    <None Include="Resources\Exit_41038.png" />
+    <None Include="Resources\diskette_save_saveas_1514.png" />
+    <None Include="Resources\design.png" />
+    <None Include="Resources\Delete_icon-icons.com_73707.png" />
+    <None Include="Resources\Date.png" />
+    <None Include="Resources\Cut.png" />
+    <None Include="Resources\copy_120015.png" />
+    <None Include="Resources\Copy_.png" />
+    <None Include="Resources\colornotepad_25496.png" />
+    <None Include="Resources\color.png" />
+    <None Include="Resources\closeall.png" />
+    <None Include="Resources\bold_icon_144487.png" />
+    <None Include="Resources\Bold.png" />
+    <None Include="Resources\back to normal.png" />
+    <None Include="Resources\allcenteralignment_102685.png" />
+    <None Include="Resources\adjust.png" />
+    <None Include="Resources\add - Copy.png" />
+    <None Include="Resources\Underline.png" />
+    <None Include="Resources\zoom-out.png" />
+    <None Include="Resources\zoomin.png" />
+    <None Include="Resources\undoarrow_undo_1534.ico.png" />
+    <None Include="Resources\Redo_icon-icons.com_73698.ico.png" />
+    <None Include="Resources\add - Copy1.png" />
+    <None Include="Resources\add.ico" />
+    <None Include="Resources\undoarrow_undo_1534.ico" />
+    <None Include="Resources\thumb_up_like_appreciation_support_appreciate_icon_254070.ico" />
+    <None Include="Resources\Redo_icon-icons.com_73698.ico" />
+    <None Include="Resources\power_closedown_close_exit_pode_1842.ico" />
+    <None Include="Resources\Open_icon-icons.com_73704.ico" />
+    <None Include="Resources\notepad-icon_34386.ico" />
+    <None Include="Resources\notepad_25496.ico" />
+    <None Include="Resources\ic_select_all_128_28720.ico" />
+    <None Include="Resources\gui_about_icon_157266.ico" />
+    <None Include="Resources\Github_icon-icons.com_66788.ico" />
+    <None Include="Resources\folders_documents_9789.ico" />
+    <None Include="Resources\folder_red_9772.ico" />
+    <None Include="Resources\file-icon_31836.ico" />
+    <None Include="Resources\facebook_icon-icons.com_53612.ico" />
+    <None Include="Resources\Exit_41038.ico" />
+    <None Include="Resources\Cut_icon-icons.com_73697.ico" />
+    <None Include="Resources\Copy_icon-icons.com_73696.ico" />
+    <None Include="Resources\add_file_insert_file_new_file_icon_238367.ico" />
+    <None Include="Resources\1486485588-add-create-new-math-sign-cross-plus_81186.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
