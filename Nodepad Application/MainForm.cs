@@ -693,6 +693,12 @@ namespace Nodepad_Application
         {
             MainrichTextBox1.SelectionAlignment = HorizontalAlignment.Right;
         }
+
+
+       
+
+
+
     }
-    
+
 }
