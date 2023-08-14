@@ -24,6 +24,37 @@ Notepad SI is a simple text editor application built using C# and Windows Forms.
 5. Explore the source code to understand the implementation details and customize the application according to your needs.
 
 ## Screenshots
+<h2>MainView:</h2>
+<a href="" target="_blank">
+  <img src="https://github.com/aminul-islam-niloy/Nodepad-SI/blob/master/Nodepad%20Application/Resources/Main%20page.jpg"/>
+</a>
+
+<h2>Opeaetion View Open dialog:</h2>
+<a href="" target="_blank">
+  <img src="https://github.com/aminul-islam-niloy/Nodepad-SI/blob/master/Nodepad%20Application/Resources/Open%20with.jpg"/>
+</a>
+<h2>Print View:</h2>
+
+<h2>Opeaetion View Operations:</h2>
+<a href="" target="_blank">
+  <img src="https://github.com/aminul-islam-niloy/Nodepad-SI/blob/master/Nodepad%20Application/Resources/Allignment%20Set.jpg"/>
+</a>
+<h2>Print View:</h2>
+
+<h2>Opeaetion View Operations:</h2>
+<a href="" target="_blank">
+  <img src="https://github.com/aminul-islam-niloy/Nodepad-SI/blob/master/Nodepad%20Application/Resources/Advance%20operation.jpg"/>
+</a>
+<h2>Print View:</h2>
+
+<h2>Opeaetion View Operations:</h2>
+<a href="" target="_blank">
+  <img src="https://github.com/aminul-islam-niloy/Nodepad-SI/blob/master/Nodepad%20Application/Resources/Open%20with.jpg"/>
+</a>
+<h2>Print View:</h2>
+
+
+
 
 
 
@@ -40,7 +71,7 @@ This project is licensed under the [MIT License](LICENSE).
 Notepad SI is developed by Aminul Islam Niloy.
 
 Connect with me:
-- GitHub: [github.com/yourusername]([https://github.com/yourusername](https://github.com/aminul-islam-niloy))
+- GitHub: [github.com/yourusername]([https://github.com/aminul-islam-niloy])
 - Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
 - LinkedIn: [linkedin.com/in/yourlinkedinprofile](https://www.linkedin.com/in/yourlinkedinprofile)
 
