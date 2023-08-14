@@ -60,7 +60,7 @@ Notepad SI is a simple text editor application built using C# and Windows Forms.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or want to enhance the application, feel free to create a pull request or open an issue.
+Contributions are welcome! If you find any issues or want to enhance the application, create a pull request or open an issue.
 
 ## License
 
@@ -71,11 +71,10 @@ This project is licensed under the [MIT License](LICENSE).
 Notepad SI is developed by Aminul Islam Niloy.
 
 Connect with me:
-- GitHub: [github.com/yourusername]([https://github.com/aminul-islam-niloy])
+- GitHub: [github.com/yourusername](https://github.com/aminul-islam-niloy)
 - Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
 - LinkedIn: [linkedin.com/in/yourlinkedinprofile](https://www.linkedin.com/in/yourlinkedinprofile)
 
-For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please contact [your-email@example.com](niloyftaminul@gmail.com).
 
----
-*Note: Update the placeholders (such as `yourusername`, `yourtwitterhandle`, `yourlinkedinprofile`, and `your-email@example.com`) with your actual information.*
+
