@@ -1,4 +1,4 @@
-# Notepad SI - Simple Text Editor Application
+# Notepad SI - Text Editor Application
 
 Notepad SI is a simple text editor application built using C# and Windows Forms. This application allows users to create, edit, format, and save text documents with basic formatting options. It resembles the functionality of the Windows Notepad application.
 
@@ -71,7 +71,7 @@ This project is licensed under the [MIT License](LICENSE).
 Notepad SI is developed by Aminul Islam Niloy.
 
 Connect with me:
-- GitHub: [github.com/yourusername](https://github.com/aminul-islam-niloy)
+- GitHub: [github.com/aminul-islam-niloy](https://github.com/aminul-islam-niloy)
 - Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
 - LinkedIn: [linkedin.com/in/yourlinkedinprofile](https://www.linkedin.com/in/yourlinkedinprofile)
 
