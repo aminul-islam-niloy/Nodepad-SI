@@ -72,9 +72,6 @@ Notepad SI is developed by Aminul Islam Niloy.
 
 Connect with me:
 - GitHub: [github.com/aminul-islam-niloy](https://github.com/aminul-islam-niloy)
-- Twitter: (https://twitter.com/yourtwitterhandle)
-- LinkedIn: (https://www.linkedin.com/in/yourlinkedinprofile)
-
 For any inquiries, please contact (niloyftaminul@gmail.com).
 
 
